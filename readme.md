@@ -33,3 +33,9 @@ Every row of the dataset displays one delivery cycle. For a better understanding
 | travel_start_delta     | Integer | $ts_S$             | An offset to pm_start that determines when the transporter departed from the production entity in seconds.                                                                                                                     |
 | arrival_delta          | Integer | $\Delta{}TS_{SA}$  | An offset in epoch format that determines when the transporter arrived at the consumer entity in seconds.                                                                                                                      |
 | end_unload_delta       | Integer | $\Delta{}TS_{UA}$  | The offset to pm_start which determines when the transporter has finished unloading in seconds.                                                                                                                                |
+
+## Download
+
+The dataset is available as .csv and .xlsx and can be found here:
+- CSV: [open_dataset.csv](./csv/open_dataset.csv) 
+- XLSX: [open_dataset.xlsx](./xlsx/open_dataset.xlsx) 
